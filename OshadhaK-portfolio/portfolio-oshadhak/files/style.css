@@ -28,6 +28,7 @@ body {
     overflow: hidden;
 }
 
+/*Oshadha.K logo*/
 .logo {
     position: relative;
     font-size: 25px;
@@ -52,7 +53,7 @@ body {
     animation: slideUP .5s ease forwards;
     animation-delay: calc(.2s * var(--i));
 }
-
+/*navbar text colour change*/
 .navbar a:hover {
     color: #0ef;
     text-decoration: underline;
