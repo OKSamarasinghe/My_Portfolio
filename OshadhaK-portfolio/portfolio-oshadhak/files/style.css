@@ -360,23 +360,35 @@ body {
     transform-origin: left;
 }
 
-.progress-line.html span {
-    width: 100%;
-}
-
-.progress-line.css span {
-    width: 100%;
-}
-
-.progress-line.python span {
-    width: 100%;
-}
-
 .progress-line.java span {
     width: 100%;
 }
 
+.progress-line.react span {
+    width: 100%;
+}
+
+.progress-line.springboot span {
+    width: 100%;
+}
+
+.progress-line.html span {
+    width: 100%;
+}
+
 .progress-line.cpls span {
+    width: 100%;
+}
+.progress-line.sql span {
+    width: 100%;
+}
+.progress-line.adobe span {
+    width: 100%;
+}
+.progress-line.figma span {
+    width: 100%;
+}
+.progress-line.iot span {
     width: 100%;
 }
 
@@ -526,7 +538,7 @@ body {
     font-size: 60px;
     line-height: 1;
     text-align: center;
-    padding: 50px;
+    padding: 200px;
     padding-bottom: 110px;
 }
 
