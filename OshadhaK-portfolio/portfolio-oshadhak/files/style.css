@@ -281,6 +281,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 0px;
+    justify-content: space-between; /* Adjust spacing between containers */
+    align-items: flex-start; /* Align items at the top */
+    gap: 50px; /* Adjust the gap between containers */
 }
 
 .container1 {
@@ -288,12 +291,16 @@ body {
     max-height: 500px;
     padding: 10px;
     margin-left: 100px;
+    flex: 1; /* Ensure both containers take equal space */
+    max-width: 50%; /* Adjust according to your design */
 }
 .container2 {
     width: 600px;
     max-height: 500px;
     padding: 10px;
     margin-left: 100px;
+    flex: 1; /* Ensure both containers take equal space */
+    max-width: 50%; /* Adjust according to your design */
 }
 
 .heading1 {
