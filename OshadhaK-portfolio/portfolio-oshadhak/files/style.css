@@ -525,9 +525,10 @@ body {
 }
 
 /*projects*/
-#Projects{
+#Projects {
     background-color: #000;
 }
+
 .main-text {
     padding-top: 50px;
     margin-top: 10px;
@@ -548,7 +549,8 @@ body {
 
 .serv-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(259px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
     align-items: center;
     justify-content: space-around;
 }
@@ -563,8 +565,7 @@ body {
 
 .row img {
     width: 100%;
-    max-width: 300px;
-    max-height: 300px;
+    height: auto;
     border-radius: 15px;
     display: block;
     transition: transform 0.5s;
@@ -573,9 +574,7 @@ body {
 
 .layer {
     width: 100%;
-    max-width: 300px;
-    max-height: 300px;
-    height: 0;
+    height: 100%;
     opacity: 0;
     background: linear-gradient(rgba(255, 255, 255, 0.5), #0ef);
     position: absolute;
@@ -588,8 +587,8 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 40px;
-    transition: height 0.5s;
+    padding: 20px;
+    transition: opacity 0.5s;
 }
 
 .layer h5 {
@@ -610,7 +609,7 @@ body {
 .layer i {
     color: #0ef;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 30px;
     background: #000;
     width: 60px;
     height: 60px;
@@ -621,13 +620,13 @@ body {
 }
 
 .row:hover img {
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 
 .row:hover .layer {
-    height: 100%;
     opacity: 1;
 }
+
 
 /* Service*/
 
